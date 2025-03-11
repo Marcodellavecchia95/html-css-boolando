@@ -19,6 +19,7 @@ a {
 
 img {
   max-width: 100%;
+  max-height: 600px;
 }
 
 body {
@@ -26,6 +27,7 @@ body {
 }
 
 /* HEADER  */
+
 .header-bg {
   background-color: #ff6900;
   margin-bottom: 40px;
@@ -52,11 +54,15 @@ li {
 /* MAIN  */
 .row {
   display: flex;
-  gap: 5px;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
 }
 .card {
   position: relative;
+  width: calc(100% / 3);
 }
+
 .card-like {
   position: absolute;
   top: 0;
@@ -81,6 +87,27 @@ li {
   position: absolute;
   bottom: 85px;
   left: 53px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  z-index: 2;
+}
+
+.card-price > p {
+  color: red;
+  font-weight: 600;
+}
+
+.card-price > p > span {
+  color: black;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+
+.sustain-box-only {
+  position: absolute;
+  bottom: 85px;
+  left: 0px;
   padding: 5px;
   background-color: green;
   color: white;
