@@ -17,6 +17,10 @@ a {
   color: white;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -43,4 +47,42 @@ li {
 
 .icons {
   color: white;
+}
+
+/* MAIN  */
+.row {
+  display: flex;
+  gap: 5px;
+}
+.card {
+  position: relative;
+}
+.card-like {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: white;
+  margin-top: 5px;
+  z-index: 2;
+}
+
+.card-discount {
+  position: absolute;
+  bottom: 85px;
+  left: 0;
+  padding: 5px;
+  background-color: red;
+  color: white;
+
+  z-index: 2;
+}
+.sustain-box {
+  position: absolute;
+  bottom: 85px;
+  left: 53px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  z-index: 2;
 }
