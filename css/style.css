@@ -32,6 +32,9 @@ body {
 .header-bg {
   background-color: #ff6900;
   margin-bottom: 40px;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 .header-content {
   display: flex;
@@ -63,7 +66,9 @@ li {
   position: relative;
   width: calc(100% / 3);
 }
-
+.card-like:hover {
+  color: red;
+}
 .card-like {
   position: absolute;
   top: 0;
