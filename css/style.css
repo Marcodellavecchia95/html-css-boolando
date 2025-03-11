@@ -141,6 +141,7 @@ li {
 
 .bottom-footer {
   display: flex;
+  justify-content: center;
   padding: 20px 0;
   justify-content: space-between;
 }
@@ -154,7 +155,8 @@ h5 {
   font-size: 1rem;
   padding-right: 10px;
 }
-.icons {
+.icons-bottom {
+  color: white;
   padding-left: 20px;
   padding-top: 12px;
 }
