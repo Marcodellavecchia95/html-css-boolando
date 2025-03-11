@@ -11,6 +11,7 @@
 
 ul {
   list-style: none;
+  margin-top: 10px;
 }
 a {
   text-decoration: none;
@@ -125,4 +126,30 @@ li {
 
 .card-hover {
   display: none;
+}
+
+/* FOOTER  */
+
+.page-footer {
+  background-color: #1a1a1a;
+}
+
+.bottom-footer {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+h4 {
+  color: white;
+}
+
+h5 {
+  color: white;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+.icons {
+  padding-left: 20px;
+  padding-top: 12px;
 }
